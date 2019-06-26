@@ -129,5 +129,5 @@ receive_topic.php
 
 **代码**
 
-send_topic.php  
-receive_topic.php
+send_rpc.php  
+receive_rpc.php
