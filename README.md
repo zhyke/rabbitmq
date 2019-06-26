@@ -40,8 +40,8 @@ composer.phar install
 **代码** 
 
 receive.php  
-send.php 
-receive2.php  
+send.php  
+receive2.php   
 send2.php 
 
 **情景1:** 
@@ -64,8 +64,8 @@ send2.php
 
 **代码**
 
-receive2_ack.php  
-send2.php 
+receive2_ack.php   
+send2.php   
 send2_ack.php
 
 **情景1**
@@ -84,7 +84,7 @@ parameters and will return an error to any program that tries to do that.
 
 **代码**
 
-send_fanout.php
+send_fanout.php  
 receive_fanout.php
 
 ### 案例4
@@ -96,7 +96,7 @@ receive_fanout.php
 
 **代码**
 
-send_direct.php
+send_direct.php  
 receive_direct.php
 
 ### 案例5
@@ -104,13 +104,13 @@ receive_direct.php
 ### 结论
 
 - topic的routing_key更加灵活，类似与正则匹配单个和多个单词
-- * (star) can substitute for exactly one word.（*表示匹配任意一个单词）
-- # (hash) can substitute for zero or more words.（#表示匹配0到多个单词）
+- \* (star) can substitute for exactly one word.（*表示匹配任意一个单词）
+- \# (hash) can substitute for zero or more words.（#表示匹配0到多个单词）
 
 
 **代码**
 
-send_topic.php
+send_topic.php  
 receive_topic.php
 
 ### 案例6
@@ -129,5 +129,5 @@ receive_topic.php
 
 **代码**
 
-send_topic.php
+send_topic.php  
 receive_topic.php
